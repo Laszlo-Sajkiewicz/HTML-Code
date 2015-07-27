@@ -10,5 +10,5 @@ create table if not exists info (
   name varchar(30) references contact(name),
   first_name varchar(30) references contact(first_name),
   date_of_birth date CHECK date_of_bith < current_date,
-  number_child char CHECK ( number_child >=0)
+  number_child integer CHECK ( number_child >=0)
 );
