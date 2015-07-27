@@ -3,7 +3,8 @@ create table if not exists contact (
   first_name varchar(30) NOT NULL,
   address varchar(30),
   postal_code integer(4),
-  mail varchar(30)
+  mail varchar(30),
+  dateb timestamp DEFAULT now()
     CONSTRAINT name_first_name PRIMARY KEY(name,first_name)
 );
 create table if not exists info (
