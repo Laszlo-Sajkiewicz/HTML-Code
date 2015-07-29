@@ -13,13 +13,21 @@ p.presentation {
   font-family:"Times New Roman";
   font-size: 20px;
 }
+/*MUSIC*/
+p.music{
+ text-align:left;
+}
+.music{
+ border-style:dotted;
+ border-width:5px;
+}
 /*PICTURE*/
 h1.picture{
  text-align: center;
  color: red;
  text-decoration:underline;
 }
-p.presentation {
+p.picture {
   text-align: left;
   font-family:"Times New Roman";
   font-size: 20px;
